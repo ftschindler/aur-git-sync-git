@@ -1,0 +1,12 @@
+pkgbase = git-sync-git
+	pkgdesc = Synchronize tracking repositories (master branch)
+	pkgver = r56.8ced891
+	pkgrel = 1
+	url = https://github.com/simonthum/git-sync
+	arch = any
+	license = CC0
+	depends = git
+	source = git+https://github.com/simonthum/git-sync.git#branch=master
+	sha256sums = SKIP
+
+pkgname = git-sync-git
